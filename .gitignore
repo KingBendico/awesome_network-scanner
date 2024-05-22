@@ -1,0 +1,20 @@
+# Ignore the node_modules directory
+node_modules/
+
+# Ignore WebStorm project files
+.idea/
+*.iml
+*.iws
+
+# Ignore package-lock files (if you don't want to commit lock files)
+package-lock.json
+
+# Ignore FastStone WEBP file
+*.webp
+
+# Ignore other WebStorm files
+*.ws
+WebStorm2022.3
+
+# Ignore log files
+*.log

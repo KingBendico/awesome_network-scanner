@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Scanner</title>
+
+</head>
+<body>
+<h1>Network Scanner</h1>
+<div id="subnet">Detected Subnet: <span id="subnet-address"></span></div>
+<button id="scan-button">Scan Network</button>
+<button id="stop-button" style="display: none;">Stop Scan</button>
+<input type="text" id="search-input" placeholder="Search by IP or Manufacturer">
+<div id="results" class="results-container"></div>
+<div id="scan-message" class="scan-message"></div>
+<div id="progress-bar-container">
+
+    <div id="progress-bar"></div>
+    <div id="progress-text">0%</div>
+</div>
+<script src="renderer.js"></script>
+</body>
+</html>
